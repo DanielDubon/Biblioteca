@@ -10,14 +10,14 @@ public class Revista extends Documento{
         Nderevista = nderevista;
     }
 
-    public int getAñoderevista() {
-        return Añoderevista;
+    public int getAnoderevista() {
+        return Anoderevista;
     }
 
-    public void setAñoderevista(int añoderevista) {
-        Añoderevista = añoderevista;
+    public void setAnoderevista(int anoderevista) {
+        Anoderevista = anoderevista;
     }
 
     private int Nderevista;
-    private int Añoderevista;
+    private int Anoderevista;
 }

@@ -106,7 +106,7 @@ public class DriverProgram {
                             int cantidaddeejemplares = in.nextInt();
                             in.nextLine();
                             System.out.println("Año de la revista: ");
-                            int Año = in.nextInt();
+                            int Ano = in.nextInt();
                             in.nextLine();
                             System.out.println("Numero de la revista: ");
                             int numerorevista = in.nextInt();
@@ -116,7 +116,7 @@ public class DriverProgram {
                             nrevista.setTitulo(Titulo);
                             nrevista.setMateria(Materia);
                             nrevista.setCantidadejemplares(cantidaddeejemplares);
-                            nrevista.setAñoderevista(Año);
+                            nrevista.setAnoderevista(Ano);
                             nrevista.setNderevista(numerorevista);
                             nrevista.setEstado(true);
                             nrevista.setTipo("Revista");
